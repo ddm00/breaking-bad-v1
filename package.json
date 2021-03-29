@@ -1,0 +1,25 @@
+{
+  "name": "breakingbad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "breaking-bad.js",
+  "scripts": {
+    "test": "npx jest breaking-bad.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
